@@ -1,0 +1,51 @@
+* {
+    background-color: aqua;
+}
+
+.cell {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 60px;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+#gameContainer {
+    font-family: cursive;
+    text-align: center;
+
+}
+
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 300px;
+    margin: auto;
+}
+
+#restartBtn {
+    font-size: 20px;
+    background-color: #ffcc00;
+    font-family: cursive;
+    text-align: center;
+}
+
+#restartBtn:hover {
+    font-size: 30px;
+    background-color: #ffcc00;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#name {
+    display: inline-block; /* Make it inline-block */
+    border-bottom: 5px solid red;
+    margin: 20px; /* Center horizontally */
+}
